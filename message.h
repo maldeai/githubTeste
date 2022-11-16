@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 
-class message
+class Message
 {
-
 public:
-    message();
+    Message();
     void print();
 };

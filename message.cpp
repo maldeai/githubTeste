@@ -1,16 +1,11 @@
 #include "message.h"
 
-class message
+Message::Message()
 {
+    cout << "Object created." << endl;
+}
 
-public:
-    message()
-    {
-        cout << "Object created." << endl;
-    }
-
-    void print()
-    {
-        cout << "Hello Humberto! Welcome." << endl;
-    }
-};
+void Message::print()
+{
+    cout << "Hello Humberto, welcome." << endl;
+}

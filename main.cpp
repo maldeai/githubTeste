@@ -6,9 +6,8 @@ using namespace std;
 int main()
 {
     cout << "Hello Humberto" << endl;
-    message m;
+    Message m;
+    m.print();
 
-    cout << m.print() << endl;
-    
     return 0;
 }
